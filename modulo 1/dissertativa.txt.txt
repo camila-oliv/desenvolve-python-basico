@@ -1,0 +1,17 @@
+Solução Dissertativa
+
+#Entrada
+
+1. Leia e armazenar o numero n que se deseja multiplicar por 9 
+
+#Processamento
+
+2 Subtrair n-1 e armazenar como o primeiro digito n1
+
+3-Subtrair n-1 e armazenar como o primeiro digito n2
+
+4- Realize a expressão (n1x10) + n2 e armazene como resultado final 
+
+#Saída 
+
+5- Apresente r (o resultado final) e encerre o programa 

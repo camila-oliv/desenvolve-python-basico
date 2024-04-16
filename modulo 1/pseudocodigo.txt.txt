@@ -1,0 +1,15 @@
+Solução com Pseudocódigo
+
+1. Inicio;
+
+2. Leia n;
+
+3. digito1 = n-1;
+
+4. digito2 = 10-n;
+
+5. r = (n1 x 10) + n2;
+
+6. Imprima r;
+
+7. Fim;
