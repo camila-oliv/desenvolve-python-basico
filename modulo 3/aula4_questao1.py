@@ -1,7 +1,7 @@
 # Dados Entrada
 n1, n2 = int(input("Digite um número: ")) , int(input("Digite outro número: "))
 
-# Processamento
+# Dados de Saída
 if ((n1+n2) % 2) == 0:
     print('É par')
 else:
