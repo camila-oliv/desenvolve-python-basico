@@ -4,16 +4,19 @@
 #A lista original
 #O índice do maior valor da lista
 #O índice do menor valor da lista
+import random
+import math
 
 # Definir Lista
-notas = []
+lista_aleatoria = []
 
 for i in range(20):
-    nota = int(input("Digite o valor %d:"%i))
-    notas.append(nota)
+    valores = random.randint(-100,100)
+    lista_aleatoria.append(valores)
 
-print(notas)
-print(max(notas))
-print(min(notas))
+print(sorted(lista_aleatoria))
+print(lista_aleatoria)
+print("O maior valor está no índice: ", lista_aleatoria.index(max(lista_aleatoria)))
+print("o menor valor está no índice: ", lista_aleatoria.index(min(lista_aleatoria)))
 
 

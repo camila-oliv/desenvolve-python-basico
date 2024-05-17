@@ -24,11 +24,16 @@ for i in range(20):
 # Gerando lista com valores que repetem
 
 lista_interseccao = []
-
+ 
+for valores in lista1:
+   if valores in lista2:
+       lista_interseccao.append(valores) 
 
 #Dados de Saída
-print(lista1)
-print(lista1.count())
 
+print(lista1)
 print(lista2)
-print(lista2.count(valores))
+print(lista_interseccao)
+lista_interseccao.sort
+for i in lista_interseccao:
+    print(f"{i}: ({lista1.count(i)}), ({lista2.count(i)})")
