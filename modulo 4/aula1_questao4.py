@@ -1,4 +1,4 @@
-n = int(input("Digite um valor n: "))
+n = int(input("Digite um número de repetições n: "))
 maior = 0
 
 while n> 0:
