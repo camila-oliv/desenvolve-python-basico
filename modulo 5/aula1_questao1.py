@@ -6,7 +6,7 @@
 # Dados de Entrada:
 n1 = float(input("Insira um numero decimal.N1: "))
 n2 = float(input("Insira outro numero decimal.N2: "))
-soma = 0
+soma = 0.0
 
 # Processamento
 for i in range (n1,n2):
