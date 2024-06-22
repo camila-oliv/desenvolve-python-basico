@@ -1,9 +1,9 @@
 import csv
 
-# Estrutura de Dados para Usuários
+#Dados para Usuários
 usuarios = {}
 
-# Estrutura de Dados para Produtos
+#Dados para Produtos
 produtos = []
 
 # Função para carregar dados dos arquivos
@@ -249,5 +249,5 @@ def main():
             exibir_menu(permissao)
             break
 
-if _name_ == "_main_":
-    main()
+
+main()

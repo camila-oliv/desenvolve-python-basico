@@ -1,0 +1,35 @@
+Escolhi uma empresa fictícia de Livraria.
+
+Estrutura do Projeto
+1. Introdução
+Empresa: Livraria Online
+Usuários: Gerente, Funcionário, Cliente
+Produtos: Livros (com atributos como título, autor, preço, quantidade)
+
+2. Implementação
+Estrutura de Dados e Arquivos
+Usuários: Vamos usar um dicionário para carregar as informações dos usuários, onde a chave será o nome de usuário e o valor será uma lista contendo a senha e o nível de permissão.
+Produtos: Usaremos uma lista de dicionários, onde cada dicionário representará um livro com seus atributos (título, autor, preço, quantidade).
+Arquivos de Registro
+Usuários: Arquivo usuarios.csv
+Produtos: Arquivo produtos.csv
+
+3. Funcionalidades
+Usuários (CRUD)
+Create: Adicionar novos usuários.
+Read: Ler todos os usuários.
+Update: Atualizar informações de um usuário.
+Delete: Remover um usuário.
+Produtos (CRUD)
+Create: Adicionar novos produtos.
+Read: Ler todos os produtos.
+Update: Atualizar informações de um produto.
+Delete: Remover um produto.
+Buscar: Buscar um produto específico pelo título.
+Ordenar por Nome: Imprimir produtos ordenados por nome.
+Ordenar por Preço: Imprimir produtos ordenados por preço.
+
+Conclusão
+Algumas dificuldades encontradas, como por exemplo a implementação do CRUD para diferentes tipos de dados e gerência de permissões de acesso. Porém o uso de arquivos CSV, simplificou e deu mais flexibilidade, dicionário para usuários e lista de dicionários para produtos.
+Faltou fazer uma interface gráfica para melhor usabilidade.
+Acredito que o que talvez eu faria diferente seria separar o código em múltiplos arquivos para melhor organização e futura manutenção.
